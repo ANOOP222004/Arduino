@@ -6,10 +6,10 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 // Ultrasonic Sensor Pins
 const int trigPin = 9;
-const int echoPin = 10;//jffjfjhhjghjg
+const int echoPin = 10;
 
 // Heart Rate Sensor Pin
-const int heartRatePin = A0;//ghghkjgkkh
+const int heartRatePin = A0;
 int hbcount = 0;
 int hbcheck = 0;
 int timeinsec = 0;
